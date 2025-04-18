@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1745008992899
+current_stage: None
+description: null
+last_updated_timestamp: 1745008992899
+name: best_classification_model
+run_id: 2a5962a2929c495090503e95f889177e
+run_link: null
+source: file:D:/Codes/MSE/DDM501c/MLflow/mlruns/532762387268597342/2a5962a2929c495090503e95f889177e/artifacts/model
+status: READY
+status_message: null
+storage_location: file:D:/Codes/MSE/DDM501c/MLflow/mlruns/532762387268597342/2a5962a2929c495090503e95f889177e/artifacts/model
+user_id: null
+version: 1

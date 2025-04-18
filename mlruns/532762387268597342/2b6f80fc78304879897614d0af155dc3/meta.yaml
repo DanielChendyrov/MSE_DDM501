@@ -1,0 +1,15 @@
+artifact_uri: file:D:/Codes/MSE/DDM501c/MLflow/mlruns/532762387268597342/2b6f80fc78304879897614d0af155dc3/artifacts
+end_time: 1745011025964
+entry_point_name: ''
+experiment_id: '532762387268597342'
+lifecycle_stage: active
+run_id: 2b6f80fc78304879897614d0af155dc3
+run_name: Random_Forest
+run_uuid: 2b6f80fc78304879897614d0af155dc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745011013070
+status: 3
+tags: []
+user_id: Administrator
