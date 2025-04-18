@@ -7,7 +7,8 @@ import mlflow
 from sklearn.datasets import make_classification
 
 # Add parent directory to path to import modules
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(parent_dir)
 
 app = Flask(__name__)
 
@@ -15,14 +16,14 @@ app = Flask(__name__)
 def load_model():
     try:
         # Try to load the model from the local file first
-        model_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'models', 'best_model.joblib')
+        model_path = os.path.join(parent_dir, 'models', 'best_model.joblib')
         if os.path.exists(model_path):
             print(f"Loading model from local file: {model_path}")
             return joblib.load(model_path)
         else:
             # If local file doesn't exist, try MLflow registry
             print("Local model file not found, attempting to load from MLflow registry")
-            mlflow_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'mlruns')
+            mlflow_dir = os.path.join(parent_dir, 'mlruns')
             mlflow.set_tracking_uri(f"file:{mlflow_dir}")
             
             # List available models to debug

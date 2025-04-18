@@ -1,6 +1,6 @@
-artifact_location: file:D:/Codes/MSE/DDM501c/MLflow/mlruns/532762387268597342
-creation_time: 1745008959028
+artifact_location: file:d:\Codes\MSE\DDM501c\MSE_DDM501\mlruns/532762387268597342
+creation_time: 1745008959125
 experiment_id: '532762387268597342'
-last_update_time: 1745008959028
+last_update_time: 1745008959125
 lifecycle_stage: active
 name: Classification_Experiment

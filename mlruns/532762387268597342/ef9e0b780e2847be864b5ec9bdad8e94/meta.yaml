@@ -1,0 +1,15 @@
+artifact_uri: file:D:/Codes/MSE/DDM501c/MSE_DDM501/mlruns/532762387268597342/ef9e0b780e2847be864b5ec9bdad8e94/artifacts
+end_time: 1745014924713
+entry_point_name: ''
+experiment_id: '532762387268597342'
+lifecycle_stage: active
+run_id: ef9e0b780e2847be864b5ec9bdad8e94
+run_name: Logistic_Regression
+run_uuid: ef9e0b780e2847be864b5ec9bdad8e94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745014916428
+status: 3
+tags: []
+user_id: Administrator

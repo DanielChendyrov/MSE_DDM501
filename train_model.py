@@ -10,8 +10,10 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 import joblib
 import os
 
-# Set tracking URI to local mlruns directory
-mlflow.set_tracking_uri("file:./mlruns")
+# Get the directory of the current script
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# Set tracking URI using a relative path that follows the project
+mlflow.set_tracking_uri(f"file:{os.path.join(current_dir, 'mlruns')}")
 
 # Create experiment
 experiment_name = "Classification_Experiment"

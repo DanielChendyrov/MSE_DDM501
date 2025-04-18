@@ -1,0 +1,15 @@
+artifact_uri: file:D:/Codes/MSE/DDM501c/MSE_DDM501/mlruns/532762387268597342/5bb0360a5ad847f083e90a8acf5367be/artifacts
+end_time: 1745014937594
+entry_point_name: ''
+experiment_id: '532762387268597342'
+lifecycle_stage: active
+run_id: 5bb0360a5ad847f083e90a8acf5367be
+run_name: Random_Forest
+run_uuid: 5bb0360a5ad847f083e90a8acf5367be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745014924719
+status: 3
+tags: []
+user_id: Administrator
